@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-lg bg-body-tertiary">
         <div class="container-fluid navka">
             <div class="contianer lefcon">
@@ -24,7 +23,9 @@
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
                     aria-labelledby="offcanvasExampleLabel">
                     <div class="offcanvas-header">
-                        <a class="offcanvas-title navbar-brand" id="offcanvasExampleLabel" href="/">Resort</a>
+                        <a class="offcanvas-title navbar-brand" id="offcanvasExampleLabel" href="index.html">
+                            <img src="logo.png" alt="menu" width="109" height="30">
+                        </a>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -37,7 +38,6 @@
                         </ul>
                     </div>
                 </div>
-
                 <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#Search"
                     aria-controls="offcanvasExample">
                     <img src="searchicon.svg" alt="search" width="30" height="30">
@@ -55,15 +55,8 @@
                         </form>
                     </div>
                 </div>
-
-
-
             </div>
-
-
-            <a class="navbar-brand" href="/">Resort</a>
-
-
+            <a class="navbar-brand" href="index.html"><img src="logo.png" alt="menu" width="109" height="30"></a>
             <div class="contianer righcon">
                 <div class="dropdown">
                     <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown"
@@ -76,8 +69,6 @@
                         <li><a class="dropdown-item" href="#">French</a></li>
                     </ul>
                 </div>
-
-
                 <button class="btn btn-outline-dark" style="margin-left: 5%;" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -85,58 +76,190 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse alignment" id="navbarSupportedContent">
-
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle dpbtn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
+                        <a class="nav-link dropdown-toggle dpbtn" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Destination
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Amangiri</a></li>
+                            <li><a class="dropdown-item" href="#">Amanera</a></li>
+                            <li><a class="dropdown-item" href="#">Amangini</a></li>
+                            <li><a class="dropdown-item" href="#">Amanyara</a></li>
                         </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle dpbtn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
+                    </li>
+                </div>
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <a class="nav-link dropdown-toggle dpbtn" role="button" aria-expanded="false">
+                        <input type="date" name="dropdown-toggle">
+                        Check-In
+                    </a>
+                </div>
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <a class="nav-link dropdown-toggle dpbtn" role="button" aria-expanded="false">
+                        <input type="date" name="dropdown-toggle">
+                        Check-Out
+                    </a>
+                </div>
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle dpbtn" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Guests
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">2</a></li>
+                            <li><a class="dropdown-item" href="#">3</a></li>
+                            <li><a class="dropdown-item" href="#">4</a></li>
+                            <li><a class="dropdown-item" href="#">5</a></li>
                         </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle dpbtn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle dpbtn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                </ul>
-
+                    </li>
+                </div>
+                <div class="navbar-nav">
+                    <button class="btn btn-dark" style="border-radius: 0%;" type="submit">Search</button>
+                </div>
             </div>
         </div>
     </nav>
+    <div class="container">
+        <video width="900" height="550" controls loop>
+            <source src="vid.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="container">
+        <p>SEASONAL TRAVEL INSPIRATION</p>
+        <h1>Seeking winter sun</h1>
+        <a style="color: black;" href="index.html">Discover more</a>
+        <div class="container aligni1">
+            <div class="card" style="width: 40rem;margin-top: 2%;">
+                <img src="firstimg.jpg" class="card-img-top">
+                <div class="card-body">
+                    <p>HOTELS & RESORTS</p>
+                    <h4 class="card-title">Explore the world of Aman</h4>
+                    <p class="card-text">Earth’s remotest destinations are often its most beautiful, and it is in these
+                        sacred spaces that Aman has shaped its retreats. From the lofty peaks of Bhutan to the soft
+                        sands of Turks &amp; Caicos, enjoy seclusion and privacy in locations of unprecedented serenity
+                        and cultural heritage.</p>
+                    <a style="color: black;" href="index.html">Explore Destination</a>
+                </div>
+            </div>
+            <div class="card" style="width: 25rem;margin-top: 2%;">
+                <img height="360rem" width="130rem" src="secondimg.jpg" class="card-img-top">
+                <div class="card-body">
+                    <p>FEATURED DESTINATIONS</p>
+                    <h4 class="card-title">Aman Tokyo, Japan</h4>
+                    <p class="card-text">From the heights of the Otemachi Tower, Aman Tokyo tempers urban dynamism with
+                        a profound atmosphere of serenity.</p>
+                    <a style="color: black;" href="index.html">Explore Destination</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container aligni1" style="margin-top: 5%;">
+        <div class="card" style="width: 24rem;">
+            <img src="upcar1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p style="margin-left: 40%;">VILLAS</p>
+                <h5 class="card-title" style="margin-left: 30%;">Time Together</h5>
+                <p class="card-text">Aman’s private Villas offer travellers opportunities to savour precious time with
+                    family and friends, or simply to escape into romantic seclusion in the world’s most beautiful</p>
+            </div>
+        </div>
+        <div class="card" style="width: 24rem;margin-left: 5%;">
+            <img src="upcar2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p style="margin-left: 30%;">CAMPS & SAFARI'S</p>
+                <h5 class="card-title" style="margin-left: 25%;">Into The Wilderness</h5>
+                <p class="card-text">From the tiger-inhabited jungle of Ranthambore National Park to the starkly
+                    beautiful Utah desert, and a tropical island in Indonesia, Aman's camps and safaris offer a sense of
+                    escapism and adventure.</p>
+            </div>
+        </div>
+    </div>
+    <div style="margin: 2%;display: flex;justify-content: center;">
+        <div class="card" style="width: 25rem;margin: 1%;">
+            <img src="centcar1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>ABOUT US</p>
+                <h5 class="card-title">The Spirit of Aman</h5>
+                <p class="card-text">Time with Aman is akin to being welcomed into a gracious private home where only a
+                    few guests are received. Aman's discreet sanctuaries and spaces are sensitive and authentic to
+                    geography, design and cultural heritage - every experience gently unfolds with simplicity and
+                    elegance providing an immediate sense of belonging.</p>
+                <a style="color: black;" href="index.html">Discover more</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;margin: 1%;">
+            <img src="centcar2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>GRAND GESTURES</p>
+                <h5 class="card-title">Aman Gift Card</h5>
+                <p class="card-text">Give the gift of future travel with an Aman Gift Card. Both digital and physical
+                    gift cards can be purchased exclusively online and redeemed at Aman destinations across the globe.
+                </p>
+                <a style="color: black;" href="index.html">Shop now</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;margin: 1%;">
+            <img src="centcar3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>AMAN SHOP</p>
+                <h5 class="card-title">Fine Fragrance Duos</h5>
+                <p class="card-text">Inspired by the exotic aromatics of Aman destinations across the globe and encased
+                    in an exclusive gift box, new Fine Fragrance Duos pair a full-sized Aman perfume with a candle in a
+                    corresponding scent - an exceptional gift this festive season.</p>
+                <a style="color: black;" href="index.html">Shop now</a>
+            </div>
+        </div>
+    </div>
+    <div class="container alignment">
+        <h2 class="dpbtn" style="left: 40%;position: absolute;">Featured story</h2>
+    </div>
+    <div class="container" style="margin-top: 10%;display: flex;justify-content: center;align-items: center;">
+        <img src="lolo.jpg" width="486" height="280" alt="">
+        <div class="card" style="width: 25rem;margin: 1%;">
+            <div class="card-body">
+                <p>NEW & NOTEWORTHY</p>
+                <h5 class="card-title">Where mountains meet</h5>
+                <p class="card-text">Having travelled across Asia, Aman’s original home, international photographer
+                    Chris Colls turns his lens to Europe’s Alps, continuing his visual journey at Aman Le Mélézin in
+                    Courchevel 1850, amidst the soul-stirring solitude of Les Trois Vallées.</p>
+                <hr>
+                <a style="color: black;" href="index.html">Read story</a>
 
+            </div>
+        </div>
+    </div>
+    <h2 style="left: 40%;position:relative;margin: 2%;">New & noteworthy</h2>
+    <div class="aligni1">
+        <div class="card" style="width: 25rem;margin: 1%;">
+            <img src="botcar1.webp" height="350px" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>INTRODUCING AMAN INTERIORS</p>
+                <h5 class="card-title">The essence of home</h5>
+                <p class="card-text">Since 1988, when Amanpuri opened on Thailand’s shores, Aman has grown to become an
+                    industry leader in the creation of understated, elegant and architecturally designed environments.
+                    Building on this legacy, Aman Interiors now brings the essence of Aman into the home.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;margin: 1%;">
+            <img src="botcar2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>INTRODUCING JANO TOKYO/p>
+                <h5 class="card-title">If Aman is sanctuary - Janu is connectedness</h5>
+                <p class="card-text">Marking an energising new era for hospitality, Aman – synonymous with 'peace' - is delighted to announce that Janu - meaning 'soul' in Sanskrit - will unveil its first hotel in March 2024.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;margin: 1%;">
+            <img src="botcar3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>WELLNESS</p>
+                <h5 class="card-title">Performance & Recovery with Maria Sharapova</h5>
+                <p class="card-text">Hosted by Aman’s Wellness Ambassador, this inaugural immersion at Aman’s original flagship destination combines Maria’s expertise as an elite athlete with Amanpuri’s specialist wellness facilities and experts.</p>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
