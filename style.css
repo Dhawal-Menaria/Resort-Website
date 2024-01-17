@@ -1,0 +1,17 @@
+.righcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1%;
+}
+.lefcon {
+    margin-left: 1%;
+}
+
+.alignment {
+    display: flex;
+    justify-content: space-between;
+}
+.dpbtn {
+    text-align: center;
+}
